@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+<title>Record_entry</title>
+</head>
+<body background = "bg.png">
+<font color = "Black">
+	<a href = "Group7_Teamproject.html">HOME</a>&nbsp &nbsp
+	<a href = "rec_entry.html">RECORD ENTRY</a>&nbsp &nbsp
+	<a href = "rec_search.html">CATEGORY SEARCH</a>&nbsp &nbsp
+	<a href = "post_search.html">POST SEARCH</a>
+	<h1 align = "center"> Enter records for Online Forums or Communities </h1>
+	<form id="form" action="rec_entry.php" method="post">
+	<fieldset>
+		<legend style="color:blue;"><font size = "4"><i>User Info</i></legend>
+		</br>
+		<label>USER_ID: &nbsp
+			<input type="text" name="user_id" size="10" maxlength="20"/></label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+		<label>USER_NAME: &nbsp
+			<input type="text" name="user_name" size="50" maxlength="225"/></label>
+		</br></br>
+		<label>USER_EMAIL: &nbsp
+			<input type="text" name="user_email" size="70" maxlength="225"/></label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+		<label>USER_DATE: &nbsp
+			<input type="date" name="user_date" size="30" maxlength="45"></label> 
+		</br></br>
+	</fieldset>
+	<fieldset>
+		<legend style="color:blue;"><font size = "4"><i>Category</i></legend>
+		</br>
+		<label>CATEGORY_ID: &nbsp
+			<input type="text" name="cat_id" size="10" maxlength="20"/></label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+		<label>CATEGORY_NAME: &nbsp
+			<input type="text" name="cat_name" size="70" maxlength="225"/></label>
+		</br></br>
+		<label>CATEGORY_DESCRIPTION: &nbsp
+			<input type="text" name="cat_desp" size="70" maxlength="225"/></label>
+		</br></br>
+	</fieldset>
+	
+	<fieldset>
+		<legend style="color:blue;"><font size = "4"><i>Forum</i></legend>
+		</br>
+		<label>FORUM_ID: &nbsp
+			<input type="text" name="forum_id" size="10" maxlength="20"/></label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+		<label>FORUM_NAME: &nbsp
+			<input type="text" name="forum_name" size="70" maxlength="225"/></label>
+		</br></br>
+		<label>FORUM_URL: &nbsp
+			<input type="text" name="forum_email" size="70" maxlength="225"/></label>
+		</br></br>
+		
+	</fieldset>
+	<fieldset>
+		<legend style="color:blue;"><font size = "4"><i>Post</i></legend>
+		</br>
+		<label>POST_ID: &nbsp
+			<input type="text" name="post_id" size="10" maxlength="20"/></label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+		<label>POST_CONTENT: &nbsp
+			<input type="text" name="post_content" size="100" maxlength="500"/></label>
+		</br></br>
+		<label>POST_ANS_URL: &nbsp
+			<input type="text" name="post_url" size="50" maxlength="225"/></label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+		<label>POST_DATE: &nbsp
+			<input type="date" name="post_date" size="30" maxlength="45"></label> 
+	</fieldset>
+	<fieldset>
+		<legend style="color:blue;"><font size = "4"><i>Creator Info</i></legend>
+		</br>
+		<label>CREATOR_ID: &nbsp
+			<input type="text" name="creator_id" size="10" maxlength="20"/></label> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+		<label>CREATOR_NAME: &nbsp
+			<input type="text" name="creator_name" size="50" maxlength="225"/></label>
+	</fieldset>
+		</br></br>
+		&nbsp &nbsp<input type ="submit" name="submit" value="Submit!" /> 
+	
+</form>
+</font>
+</body> 	
+</html>

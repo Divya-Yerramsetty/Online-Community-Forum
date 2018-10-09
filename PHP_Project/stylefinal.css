@@ -1,0 +1,109 @@
+.navbar {
+	float:right;
+    background-color:white;
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+	padding: 14px 16px;
+	font-size: 20px;
+}
+
+a {
+    display: line;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: underline;
+	font-size: 20px;
+	font-family: Georgia;
+}
+
+.active{
+	color: orange;
+}
+
+a:hover:not(.active) {
+    background-color: grey;
+    color: white;
+}
+
+body {
+	background-image: url("bg.jpg");
+	background-blend-mode: lighten;
+}
+
+.title {
+	color:white;
+	font-size: 50px;
+}
+ 
+.para{
+	font-size: 35px; 
+	color:black; 
+	font-family: Times New Roman; 
+	word-spacing: 10px;
+}
+
+.para_2,ul,li{
+	font-size: 20px;
+	color:black;
+	font-family: Arial;
+}
+
+table{
+    border: 1px solid black;
+    
+}
+
+th{
+	border: 1px white;
+	color: white;
+	font-size: 20px;
+}
+
+td{
+	color: white;
+    padding: 5px;
+}
+
+tr.d0 td {
+	background-color: grey; color: black;
+	font-size: 20px;
+	border: 1px white;
+}
+tr.d1 td {
+	background-color: black; color: white;
+	font-size: 20px;
+	border: 1px white;
+}
+
+legend, label{
+	color: white;
+	font-size: 20px;
+	font-family: Arial;
+}
+
+option{
+	font-size: 15px;
+}
+
+.button {
+    background-color: blue;
+    border: none;
+    col
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
